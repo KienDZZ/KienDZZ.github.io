@@ -72,7 +72,7 @@ canvas {
 .img {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
   width: 420px;
   height: 420px;
@@ -180,10 +180,10 @@ a:hover {
 img {
 
   /* width: 200px; */
-  aspect-ratio: 1;
+  aspect-ratio: 0;
   object-fit: cover;
   --_m: radial-gradient(#000 69%, #0000 70%) 84.5% fill/100%;
-  -webkit-mask-box-image: var(--_m);
+  /* -webkit-mask-box-image: var(--_m); */
   mask-border: var(--_m);
   clip-path: polygon(-41% 0, 50% 91%, 141% 0);
 }
